@@ -1,9 +1,12 @@
-package com.epam.spring.core.loggers;
+package com.epam.spring.core.beans;
 
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Random;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Event
 {
     private int id;
